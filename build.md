@@ -1,7 +1,4 @@
-Music-Morphe (arm64-v8a): 8.44.54  
-Music-Morphe (arm-v7a): 8.44.54  
 Reddit-Morphe: 2026.04.0  
-Spotify: 9.1.28.2252  
 YouTube-Morphe: 20.44.38  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
