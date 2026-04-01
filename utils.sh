@@ -176,7 +176,7 @@ config_update() {
 			if [ "${sources["$PATCHES_SRC/$PATCHES_VER"]}" = 1 ]; then upped+=("$table_name"); fi
 		else
 			sources["$PATCHES_SRC/$PATCHES_VER"]=0
-			local rv_rel="https://api.github.com/repos/${PATCHES_SRC}/releases"
+			local rv_rel="https://api.gitlab.com/repos/${PATCHES_SRC}/releases"
 			if [ "$PATCHES_VER" = "dev" ]; then
 				last_patches=$(gh_req "$rv_rel" - | jq -e -r '.[0]') || continue
 			elif [ "$PATCHES_VER" = "latest" ]; then
